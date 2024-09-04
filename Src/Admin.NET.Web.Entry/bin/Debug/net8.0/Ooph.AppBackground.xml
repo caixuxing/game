@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.AppBackground</name>
+    </assembly>
+    <members>
+        <member name="T:Ooph.AppBackground.AppConst">
+            <summary>
+            业务应用相关常量
+            </summary>
+        </member>
+        <member name="F:Ooph.AppBackground.AppConst.GroupName_Test">
+            <summary>
+            API分组名称
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.OoCurrencyRateConfigDto">
+            <summary>
+            币种汇率配置输出参数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.OriginalCurrency">
+            <summary>
+            原币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.ExchangeCurrency">
+            <summary>
+            兑换币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RateSource">
+            <summary>
+            汇率来源
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.MarketRate">
+            <summary>
+            市场汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RechargeRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RechargePolar">
+            <summary>
+            充值正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RechargeRateDiff">
+            <summary>
+            充值汇率差
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RechargeValidRate">
+            <summary>
+            充值生效汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RechargeSyncUnit">
+            <summary>
+            充值同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.RechargeSyncTrigger">
+            <summary>
+            充值同步触发值
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.PayRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.PayPolar">
+            <summary>
+            提现正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.PayRateDiff">
+            <summary>
+            提现汇率差
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.PayValidRate">
+            <summary>
+            提现生效汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.PaySyncUnit">
+            <summary>
+            提现同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.PaySyncTrigger">
+            <summary>
+            提现同步触发值
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.CreateUserId">
+            <summary>
+            创建者Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.CreateUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.UpdateUserId">
+            <summary>
+            修改者Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.UpdateUserName">
+            <summary>
+            修改者姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigDto.IsDelete">
+            <summary>
+            软删除
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.OoCurrencyRateConfigBaseInput">
+            <summary>
+            币种汇率配置基础输入参数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.OriginalCurrency">
+            <summary>
+            原币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.ExchangeCurrency">
+            <summary>
+            兑换币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RateSource">
+            <summary>
+            汇率来源
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.MarketRate">
+            <summary>
+            市场汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RechargeRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RechargePolar">
+            <summary>
+            充值正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RechargeRateDiff">
+            <summary>
+            充值汇率差
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RechargeValidRate">
+            <summary>
+            充值生效汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RechargeSyncUnit">
+            <summary>
+            充值同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.RechargeSyncTrigger">
+            <summary>
+            充值同步触发值
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.PayRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.PayPolar">
+            <summary>
+            提现正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.PayRateDiff">
+            <summary>
+            提现汇率差
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.PayValidRate">
+            <summary>
+            提现生效汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.PaySyncUnit">
+            <summary>
+            提现同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.PaySyncTrigger">
+            <summary>
+            提现同步触发值
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.CreateUserId">
+            <summary>
+            创建者Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.CreateUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.UpdateUserId">
+            <summary>
+            修改者Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.UpdateUserName">
+            <summary>
+            修改者姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigBaseInput.IsDelete">
+            <summary>
+            软删除
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.OoCurrencyRateConfigInput">
+            <summary>
+            币种汇率配置分页查询输入参数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigInput.SearchKey">
+            <summary>
+            关键字查询
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigInput.OriginalCurrency">
+            <summary>
+            原币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigInput.ExchangeCurrency">
+            <summary>
+            兑换币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigInput.RateSource">
+            <summary>
+            汇率来源
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.AddOoCurrencyRateConfigInput">
+            <summary>
+            币种汇率配置增加输入参数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.OriginalCurrency">
+            <summary>
+            原币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.ExchangeCurrency">
+            <summary>
+            兑换币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.RateSource">
+            <summary>
+            汇率来源
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.RechargeRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.RechargePolar">
+            <summary>
+            充值正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.RechargeSyncUnit">
+            <summary>
+            充值同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.PayRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.PayPolar">
+            <summary>
+            提现正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.PaySyncUnit">
+            <summary>
+            提现同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.AddOoCurrencyRateConfigInput.IsDelete">
+            <summary>
+            软删除
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.DeleteOoCurrencyRateConfigInput">
+            <summary>
+            币种汇率配置删除输入参数
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.UpdateOoCurrencyRateConfigInput">
+            <summary>
+            币种汇率配置更新输入参数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.UpdateOoCurrencyRateConfigInput.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.QueryByIdOoCurrencyRateConfigInput">
+            <summary>
+            币种汇率配置主键查询输入参数
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.OoCurrencyRateConfigOutput">
+            <summary>
+            币种汇率配置输出参数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.OriginalCurrency">
+            <summary>
+            原币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.ExchangeCurrency">
+            <summary>
+            兑换币种类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RateSource">
+            <summary>
+            汇率来源
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.MarketRate">
+            <summary>
+            市场汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RechargeRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RechargePolar">
+            <summary>
+            充值正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RechargeRateDiff">
+            <summary>
+            充值汇率差
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RechargeValidRate">
+            <summary>
+            充值生效汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RechargeSyncUnit">
+            <summary>
+            充值同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.RechargeSyncTrigger">
+            <summary>
+            充值同步触发值
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.PayRateDiffUnit">
+            <summary>
+            充值汇率差单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.PayPolar">
+            <summary>
+            提现正负极
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.PayRateDiff">
+            <summary>
+            提现汇率差
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.PayValidRate">
+            <summary>
+            提现生效汇率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.PaySyncUnit">
+            <summary>
+            提现同步单位
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.PaySyncTrigger">
+            <summary>
+            提现同步触发值
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.CreateUserId">
+            <summary>
+            创建者Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.CreateUserName">
+            <summary>
+            创建者姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.UpdateUserId">
+            <summary>
+            修改者Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.UpdateUserName">
+            <summary>
+            修改者姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.OoCurrencyRateConfigOutput.IsDelete">
+            <summary>
+            软删除
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.OoCurrencyRateConfigService">
+            <summary>
+            币种汇率配置服务
+            </summary>
+        </member>
+        <member name="M:Ooph.AppBackground.OoCurrencyRateConfigService.Page(Ooph.AppBackground.OoCurrencyRateConfigInput)">
+            <summary>
+            分页查询币种汇率配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ooph.AppBackground.OoCurrencyRateConfigService.Add(Ooph.AppBackground.AddOoCurrencyRateConfigInput)">
+            <summary>
+            增加币种汇率配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ooph.AppBackground.OoCurrencyRateConfigService.Delete(Ooph.AppBackground.DeleteOoCurrencyRateConfigInput)">
+            <summary>
+            删除币种汇率配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ooph.AppBackground.OoCurrencyRateConfigService.Update(Ooph.AppBackground.UpdateOoCurrencyRateConfigInput)">
+            <summary>
+            更新币种汇率配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ooph.AppBackground.OoCurrencyRateConfigService.Detail(Ooph.AppBackground.QueryByIdOoCurrencyRateConfigInput)">
+            <summary>
+            获取币种汇率配置
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ooph.AppBackground.OoCurrencyRateConfigService.List(Ooph.AppBackground.OoCurrencyRateConfigInput)">
+            <summary>
+            获取币种汇率配置列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ooph.AppBackground.Service.OoCurrencyRateConfig.VFormObject.RateSyncSettingsDto">
+            <summary>
+            汇率同步设置VFormDto
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.OoCurrencyRateConfig.VFormObject.RateSyncSettingsDto.DepositsWithdrawalsSet">
+            <summary>
+            汇率充提设置
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.OoCurrencyRateConfig.VFormObject.RateSyncSettingsDto.UpdateType">
+            <summary>
+            更新方式
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.OoCurrencyRateConfig.VFormObject.RateSyncSettingsDto.Frequency">
+            <summary>
+            更新频率
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.Party3.Dto.OoParty3VoucherDto.Voucher">
+            <summary>
+            凭证信息
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.Party3.Dto.OoParty3VoucherDto.FormSchemaJson">
+            <summary>
+            表单架构Json
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.Party3.Dto.OoParty3VoucherInput.TypeKey">
+            <summary>
+            类型Key
+            </summary>
+        </member>
+        <member name="P:Ooph.AppBackground.Service.Party3.Dto.OoParty3VoucherInput.VoucherKey">
+            <summary>
+            凭证Key
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.Service.Party3.Party3VoucherdetailService">
+            <summary>
+            三方凭证详细
+            </summary>
+        </member>
+        <member name="T:Ooph.AppBackground.Service.Party3.Party3VoucherService">
+            <summary>
+            三方凭证类型
+            </summary>
+        </member>
+        <member name="M:Ooph.AppBackground.Service.Party3.Party3VoucherService.#ctor(Admin.NET.Core.SqlSugarRepository{Ooph.Database.Entity.OoParty3Voucher},Admin.NET.Core.SqlSugarRepository{Ooph.Database.Entity.OoParty3Voucherdetail},Admin.NET.Core.UserManager)">
+            <summary>
+            
+            </summary>
+            <param name="party3VoucherRep"></param>
+            <param name="party3VoucherdetailRep"></param>
+            <param name="userManager"></param>
+        </member>
+        <member name="M:Ooph.AppBackground.Service.Party3.Party3VoucherService.FindParty3VoucherByKey(Ooph.AppBackground.Service.Party3.Dto.OoParty3VoucherInput)">
+            <summary>
+            按Key条件查询三方凭证
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile></DocumentationFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Copyright>Ooph.Net</Copyright>
+    <Description>Ooph.Net 开发平台</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="IGeekFan.AspNetCore.Knife4jUI" Version="0.0.16" />-->
+    <PackageReference Include="OO.LocalizationProvider.AdminUI.AspNetCore" Version="8.1.0-pre-09" />
+    <PackageReference Include="OO.LocalizationProvider.Storage.MySql" Version="8.1.0-pre-13" />
+    <PackageReference Include="OO.LocalizationProvider.Translator.MicrosoftEdge" Version="8.1.0-pre-02" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ooph.Database\Ooph.Database.csproj" />
+    <ProjectReference Include="..\Plugins\Ooph.AppBackground\Ooph.AppBackground.csproj" />
+    <ProjectReference Include="..\Plugins\Ooph.AppFront\Ooph.AppFront.csproj" />
+    <ProjectReference Include="..\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game\Ooph.MergePart3Game.csproj" />
+    <ProjectReference Include="..\Plugins\Ooph.MergePay\Ooph.MergePay.csproj" />
+    <ProjectReference Include="..\Plugins\Ooph.Worker\Ooph.Worker.csproj" />
+  </ItemGroup>
+
+</Project>

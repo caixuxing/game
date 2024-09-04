@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.Localization</name>
+    </assembly>
+    <members>
+        <member name="M:Ooph.Localization.DbLangService.InitDefLangResAsync(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.Localization.TranslationItem.ResourceKeyPrefix">
+            <summary>
+            ResourceKey 前缀
+            </summary>
+        </member>
+        <member name="P:Ooph.Localization.TranslationItem.ResourceKeySuffix">
+            <summary>
+            ResourceKey 后缀
+            </summary>
+        </member>
+        <member name="P:Ooph.Localization.TranslationItem.Language">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:Ooph.Localization.TranslationItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+    </members>
+</doc>

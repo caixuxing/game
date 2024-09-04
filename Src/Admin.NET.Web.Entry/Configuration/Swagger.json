@@ -1,0 +1,48 @@
+{
+  "$schema": "https://gitee.com/dotnetchina/Furion/raw/v4/schemas/v4/furion-schema.json",
+
+  "SpecificationDocumentSettings": {
+    "DocumentTitle": "GamePlatform 开发平台",
+    "GroupOpenApiInfos": [
+      {
+        "Group": "[测试]",
+        "Title": "[测试]",
+        "Description": "GamePlatform 开发平台",
+        "Version": "1.0.0",
+        "Order": 1001
+      },
+      {
+        "Group": "[系统]",
+        "Title": "[系统]",
+        "Description": "GamePlatform 开发平台",
+        "Version": "1.0.0",
+        "Order": 1000
+      },
+      {
+        "Group": "Default",
+        "Title": "GamePlatform 开发平台",
+        "Description": "GamePlatform 开发平台",
+        "Version": "1.0.0",
+        "Order": 1000
+      },
+      {
+        "Group": "All Groups",
+        "Title": "所有接口",
+        "Description": "GamePlatform 开发平台",
+        "Version": "1.0.0",
+        "Order": 0
+      }
+    ],
+    "DefaultGroupName": "[测试]", // 默认分组名
+    "DocExpansionState": "None", // List、Full、None
+    "EnableAllGroups": true,
+    "LoginInfo": {
+      "Enabled": true, // 是否开启Swagger登录
+      "CheckUrl": "/api/swagger/checkUrl",
+      "SubmitUrl": "/api/swagger/submitUrl",
+      "UserName": "admin",
+      "Password": "123456"
+    },
+    "EnumToNumber": false // 枚举类型生成值类型
+  }
+}

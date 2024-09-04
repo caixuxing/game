@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.IMergePart3Game</name>
+    </assembly>
+    <members>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.CreatePlayerAsync(Ooph.MergePart3Game.Models.CreatePlayerInput)">
+            <summary>
+            添加玩家
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetGameUrlAsync(Ooph.MergePart3Game.Models.GetGameUrlInput)">
+            <summary>
+            获取游戏地址URL
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetGameListAsync(Ooph.MergePart3Game.Models.GetGameListInput)">
+            <summary>
+            获取游戏列表
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.SaveDepositAsync(Ooph.MergePart3Game.Models.SaveDepositInput)">
+            <summary>
+            存进
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.WithdrawalAsync(Ooph.MergePart3Game.Models.WithdrawalInput)">
+            <summary>
+            取出
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetPayTransactionRecordAsync(Ooph.MergePart3Game.Models.GetPayTransactionRecordInput)">
+            <summary>
+            单一交易查询
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetPayTransactionListAsync(Ooph.MergePart3Game.Models.GetPayTransactionListInput)">
+            <summary>
+            交易查询（按时间）
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.LogOutAsync(Ooph.MergePart3Game.Models.LogOutInput)">
+            <summary>
+            退出游戏
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.LogOutAllAsync(Ooph.MergePart3Game.Models.LogOutAllInput)">
+            <summary>
+            所有账号退出游戏
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetGameRecordListAsync(Ooph.MergePart3Game.Models.GetGameRecordListInput)">
+            <summary>
+            查询游戏记录
+            </summary>
+            
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetGamePlayerRecordAsync(Ooph.MergePart3Game.Models.GetGamePlayerRecordInput)">
+            <summary>
+            查询单一账号玩家游戏记录
+            </summary>
+        </member>
+        <member name="M:Ooph.IMergePart3Game.IPart3Game.GetGameRecordBetSlipsCodeAsync(Ooph.MergePart3Game.Models.GetGameRecordBetSlipsCodeInput)">
+            <summary>
+            由注单号查询单一游戏记录
+            </summary>
+        </member>
+    </members>
+</doc>

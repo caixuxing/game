@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ooph.Web.Entry.props" />
+</Project>

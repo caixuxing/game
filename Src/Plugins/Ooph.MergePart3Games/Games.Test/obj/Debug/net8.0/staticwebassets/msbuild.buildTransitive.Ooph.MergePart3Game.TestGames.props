@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ooph.MergePart3Game.TestGames.props" />
+</Project>

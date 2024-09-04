@@ -1,0 +1,1528 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.AppFront</name>
+    </assembly>
+    <members>
+        <member name="T:Ooph.AppFront.AppConst">
+            <summary>
+            业务应用相关常量
+            </summary>
+        </member>
+        <member name="F:Ooph.AppFront.AppConst.GroupName">
+            <summary>
+            API分组名称
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserAccountDto.UserLoginInput.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserAccountDto.UserLoginInput.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserAccountDto.UserLoginOutput.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserAccountDto.UserLoginOutput.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserAccountDto.UserLogoutInput.MemberAccount">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.LogOutGameInput.MemberAccount">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameListInput.GameCategoryId">
+            <summary>  
+            游戏分类id(不填返回所有)
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameListOutput.GameCategoryId">
+            <summary>  
+            游戏分类id
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameListOutput.GameCode">
+            <summary>
+            游戏代码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameListOutput.GameName">
+            <summary>
+            游戏名称
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameListOutput.PlatformCode">
+            <summary>  
+            平台  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameListOutput.CurrencyTypeName">
+            <summary>
+            币别
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameLoginInput.GameCode">
+            <summary>  
+            游戏代码
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameLoginInput.GameName">
+            <summary>  
+            子游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameLoginInput.PlatformCode">
+            <summary>  
+            游戏平台
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameLoginInput.MemberAccount">
+            <summary>  
+            账号
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameLoginInput.MemberPwd">
+            <summary>  
+            密码
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserGameDto.PlayGameLoginOutput.GameUrl">
+            <summary>
+            游戏网址
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.MemberId">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.MemberAccount">
+            <summary>
+            会员账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Whatsapp">
+            <summary>
+            Whatsapp号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Telegram">
+            <summary>
+            Telegram号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Facebook">
+            <summary>
+            Facebook号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Line">
+            <summary>
+            Line号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Wechat">
+             <summary>
+            Wechat号
+             </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Zalo">
+            <summary>
+            Zalo号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Twitter">
+            <summary>
+            Twitter号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.Birthday">
+            <summary>
+            生日
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.RegisteredTime">
+            <summary>
+            注册日期
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.VipLevelName">
+            <summary>
+            Vip等级
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoOutput.VipLevelNameId">
+            <summary>
+            Vip等级id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.MemberAccount">
+            <summary>
+            会员账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.GoogleCaptcha">
+            <summary>
+            谷歌验证码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.LoginPwd">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.PayoutsPwd">
+            <summary>
+            提现密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.ConfidentialQuestion">
+            <summary>
+            密保问题
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.ConfidentialAnswer">
+            <summary>
+            密保答案
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterOutput.ConfirmConfidentialAnswer">
+            <summary>
+            确认密保答案
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput.MemberAccount">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput.MemberPwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput.ConfirmMemberPwd">
+            <summary>
+            确认密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput.MemberName">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput.CurrencyTypeName">
+            <summary>
+            币别
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput.InvitationCode">
+            <summary>
+            邀请码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberOutput.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.MemberId">
+            <summary>
+            Id  (不更改)
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.MemberAccount">
+            <summary>
+            会员账号 (不更改)
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.Whatsapp">
+            <summary>
+            Whatsapp号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.Telegram">
+            <summary>
+            Telegram号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.Facebook">
+            <summary>
+            Facebook号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.Line">
+            <summary>
+            Line号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput.Birthday">
+            <summary>
+            生日 （只能设置一次）
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoOutput.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.MemberAccount">
+            <summary>
+            会员账号 （不可更改）
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.GoogleCaptcha">
+            <summary>
+            谷歌验证码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.LoginPwd">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.ConfirmLoginPwd">
+            <summary>
+            确认登录密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.PayoutsPwd">
+            <summary>
+            提现密码
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.ConfidentialQuestion">
+            <summary>
+            密保问题
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.ConfidentialAnswer">
+            <summary>
+            密保答案
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput.ConfirmConfidentialAnswer">
+            <summary>
+            确认密保答案
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterOutput.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdHallMarqueeListOutput.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdHallMarqueeListOutput.Langs">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdHallMarqueeListOutput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdHallMarqueeListOutput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.Name">
+            <summary>
+            宣传名称
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.Type">
+            <summary>
+            宣传类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.Langs">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListOutput.CurrencyTypeName">
+            <summary>
+            币种
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetFaqQuestionOutput.Lang">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetFaqQuestionOutput.FaqType">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetFaqQuestionOutput.Question">
+            <summary>
+            问题
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetFaqQuestionOutput.Answer">
+            <summary>
+            答案
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListInput.Type">
+            <summary>
+            类型 （通知、公告）
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListOutput.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListOutput.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListOutput.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListOutput.Langs">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListOutput.SendTime">
+            <summary>
+            发送时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserMessageDto.GetNoticeListOutput.CurrencyTypeName">
+            <summary>
+            币种
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetAllPopularizeInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetAllPopularizeInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetAllPopularizeInput.MemberAccount">
+            <summary>
+            会员账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListInput.MemberAccount">
+            <summary>
+            会员账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.BetOrderId">
+            <summary>  
+            注单编号，唯一标识一个注单  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.MemberId">
+            <summary>  
+            会员ID，用户的唯一标识  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.MemberAccount">
+            <summary>  
+            会员账号，用户登录时使用的账号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.GameCategory">
+            <summary>  
+            游戏类型，如电子、体育等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.PlatformCode">
+            <summary>  
+            游戏平台
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.GameCode">
+            <summary>  
+            子游戏id，具体游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.GameName">
+            <summary>  
+            子游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.BetTime">
+            <summary>  
+            投注时间，注单下注的时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.SettlementTime">
+            <summary>  
+            结算时间，注单结算的时间（如果已结算）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.CurrencyTypeName">
+            <summary>  
+            币种，注单使用的货币类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.BetAmount">
+            <summary>  
+            投注金额，用户下注的金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.EffectiveBetAmount">
+            <summary>  
+            有效投注，经过某些规则调整后的实际投注金额（如可能有优惠、折扣等）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListOutput.MemberWinLoss">
+            <summary>  
+            会员输赢，注单结算后会员的盈亏情况（正数为赢，负数为输）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataInput.MemberAccount">
+            <summary>
+            会员账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.MemberAccount">
+            <summary>
+            会员账号
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.LowerCount">
+            <summary>
+            下级
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.RechargeAmount">
+            <summary>
+            充值金额
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.ValidBetAmount">
+            <summary>
+            有效投注
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.RegisteredTime">
+            <summary>
+            注册日期
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.LoginTime">
+            <summary>
+            登录日期
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.OnlineStatus">
+            <summary>
+            当前在线状态
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataOutput.AccountStatus">
+            <summary>
+            账号状态
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyAchievementInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyAchievementInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyAchievementOutput.TotalAchievement">
+            <summary>
+            总业绩
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyAchievementOutput.ImmediateAchievement">
+            <summary>
+            直属业绩
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyAchievementOutput.OtherAchievement">
+            <summary>
+            其他业绩
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyCommissionInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyCommissionInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyCommissionOutput.TotalCommission">
+            <summary>
+            总佣金
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyCommissionOutput.ImmediateCommission">
+            <summary>
+            直属佣金
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyCommissionOutput.OtherCommission">
+            <summary>
+            其他佣金
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeInput.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeInput.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeOutput.NewImmediateMember">
+            <summary>
+            新增直属会员
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeOutput.FristRechargePeople">
+            <summary>
+            首充人数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeOutput.RechargeCount">
+            <summary>
+            充值次数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeOutput.RechargeAmount">
+            <summary>
+            充值金额
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeOutput.AchievementAmount">
+            <summary>
+            业绩
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeOutput.Commission">
+            <summary>
+            佣金
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyTeamOutput.TotalPeople">
+            <summary>
+            总人数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyTeamOutput.ImmediatePeople">
+            <summary>
+            直属人数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.GetMyTeamOutput.OtherPeople">
+            <summary>
+            其他人数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageOutput.GameCategoryId">
+            <summary>
+            游戏分类id
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageOutput.GameCategory">
+            <summary>
+            游戏分类名称
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageOutput.RebatePercentageItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageItem.EffectivePeople">
+            <summary>
+            有效人数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageItem.AchievementAmount">
+            <summary>
+            业绩 （W）
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageItem.RebatesAmount">
+            <summary>
+            每万返佣金额
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ActivityName">
+            <summary>  
+            活动名称，用于标识和描述活动的名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ActivityCategory">
+            <summary>  
+            活动分类，用于将活动归类到不同的类别中  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.CurrencyTypeName">
+            <summary>  
+            活动币种，活动涉及的货币类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ActivityType">
+            <summary>  
+            活动类型，如促销、抽奖、积分兑换等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ActivityConditions">
+            <summary>  
+            活动条件，参与活动需要满足的条件  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ParticipatingMembers">
+            <summary>  
+            参与会员，可以参与此活动的会员列表或条件  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.AuditMultiplier">
+            <summary>  
+            稽核倍数，用于计算活动奖励或优惠的倍数  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ClaimTerminals">
+            <summary>  
+            活动申领终端，可以申领此活动的终端或渠道  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.StartTime">
+            <summary>  
+            活动开始时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.EndTime">
+            <summary>  
+            活动结束时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListOutput.ActivityStatus">
+            <summary>  
+            活动状态，如进行中、已结束、未开始等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.VipLevelName">
+            <summary>
+            Vip等级名称
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.PromotionAmount">
+            <summary>
+            晋级奖金
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.PromotionBetAmount">
+            <summary>
+            晋级再投注金额
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.MouthSalaryAmount">
+            <summary>
+            月俸禄
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.WeekSalaryAmount">
+            <summary>
+            周俸禄
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.PayoutsTotalCeiling">
+            <summary>
+            每日提现总额上限
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.PayoutsNumberCeiling">
+            <summary>
+            每日提现次数上限
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListOutput.FreeOfChargeNumber">
+            <summary>
+            每日免手续费笔数
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListInput.MissionType">
+            <summary>
+            类型(新人福利、每日任务)
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.MissionId">
+            <summary>  
+            任务的唯一标识符  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.CurrencyTypeName">
+            <summary>  
+            任务币种  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.MissionCondition">
+            <summary>  
+            任务条件  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.MissionCategory">
+            <summary>  
+            任务的分类，用于将任务归类到不同的类别中  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.RewardAmount">
+            <summary>  
+            完成任务后可以获得的奖励金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.MissionGoal">
+            <summary>  
+            任务的目标描述或要求  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.RewardActivityPoints">
+            <summary>  
+            完成任务后可以获得的活跃度奖励  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.IsEnabled">
+            <summary>  
+            指示任务是否已开启
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListOutput.IsCueBubbles">
+            <summary>  
+            是否开启提示气泡  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListInput.ReceiveStatus">
+            <summary>
+            领取状态 (不传查找所有，可传已领取、已派发)
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListInput.ReceiveTime">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OrderNumber">
+            <summary>  
+            单号，用于唯一标识该记录  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.MemberId">
+            <summary>  
+            会员的唯一标识符  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.MemberAccount">
+            <summary>  
+            会员的账号名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.CurrencyTypeName">
+            <summary>  
+            会员使用的币种  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OffersID">
+            <summary>  
+            优惠的唯一标识符  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OfferName">
+            <summary>  
+            优惠的名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OffersSource">
+            <summary>  
+            优惠来源，如活动、推广等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.SourceType">
+            <summary>  
+            来源类型，可能用于区分不同的来源渠道或方式  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OffersType">
+            <summary>  
+            优惠类型，如折扣、满减、赠品等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OffersStartTime">
+            <summary>  
+            优惠可领取的开始时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.OffersExpiryTime">
+            <summary>  
+            优惠的过期时间，超过此时间则无法领取  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.RewardDescription">
+            <summary>  
+            奖励的详细说明  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.RewardAmount">
+            <summary>  
+            奖励的金额，如果适用  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.AuditMultiplier">
+            <summary>  
+            稽核倍数，用于计算最终奖励的倍数（如果适用）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListOutput.FrontEndNote">
+            <summary>  
+            前台显示的备注信息，可能用于用户界面的展示  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OrderNumber">
+            <summary>  
+            单号，用于唯一标识该记录  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.MemberId">
+            <summary>  
+            会员的唯一标识符  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.MemberAccount">
+            <summary>  
+            会员的账号名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.CurrencyTypeName">
+            <summary>  
+            会员使用的币种  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OffersId">
+            <summary>  
+            优惠的唯一标识符  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OfferName">
+            <summary>  
+            优惠的名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OffersSource">
+            <summary>  
+            优惠来源，如活动、推广等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.SourceType">
+            <summary>  
+            来源类型，可能用于区分不同的来源渠道或方式  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OffersType">
+            <summary>  
+            优惠类型，如折扣、满减、赠品等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OffersStartTime">
+            <summary>  
+            优惠可领取的开始时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.OffersExpiryTime">
+            <summary>  
+            优惠的过期时间，超过此时间则无法领取  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.RewardDescription">
+            <summary>  
+            奖励的详细说明  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.RewardAmount">
+            <summary>  
+            奖励的金额，如果适用  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.AuditMultiplier">
+            <summary>  
+            稽核倍数，用于计算最终奖励的倍数（如果适用）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListOutput.FrontEndNote">
+            <summary>  
+            前台显示的备注信息，可能用于用户界面的展示  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsInput.TransactionTime">
+            <summary>
+            交易时间
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsInput.WalletType">
+            <summary>
+            钱包类型 （全部、余额、奖励）
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsInput.AccountChangeTypeCategory">
+            <summary>
+            账变大类
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsInput.SubCategoryDetail">
+            <summary>
+            小类明细
+            </summary>
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.TransactionId">
+            <summary>  
+            交易单号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.TransactionTime">
+            <summary>  
+            交易时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.CurrencyTypeName">
+            <summary>  
+            币种  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.MemberId">
+            <summary>  
+            会员ID  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.MemberAccount">
+            <summary>  
+            会员账号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.UpperAgent">
+            <summary>  
+            上级代理  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.RegistrationSource">
+            <summary>  
+            注册来源  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.ChangedWallet">
+            <summary>  
+            变动钱包  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.AccountChangeTypeCategory">
+            <summary>  
+            账变大类  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.SubCategoryDetail">
+            <summary>  
+            小类明细  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.BeforeChangeBalance">
+            <summary>  
+            变动前余额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.ChangeAmount">
+            <summary>  
+            变动金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.AfterChangeBalance">
+            <summary>  
+            变动后余额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.FrontendNote">
+            <summary>  
+            前台备注  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.AccountDetailsOutput.Operator">
+            <summary>  
+            操作人  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportInput.BetTimeType">
+            <summary>  
+            投注时间类型：默认、结算时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportInput.GameCategoryId">
+            <summary>  
+            游戏分类id，支持单一和全部类别  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportInput.PlatformCode">
+            <summary>  
+            平台id，支持单一平台或全部平台  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.GameCategoryId">
+            <summary>  
+            游戏类型id，如电子、体育等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.PlatformCode">
+            <summary>  
+            游戏平台，如PC、移动等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.GameCode">
+            <summary>  
+            子游戏id，具体游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.GameName">
+            <summary>  
+            子游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.BetTime">
+            <summary>  
+            投注时间，注单下注的时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.SettlementTime">
+            <summary>  
+            结算时间，注单结算的时间（如果已结算）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.CurrencyTypeName">
+            <summary>  
+            币种，注单使用的货币类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.BetAmount">
+            <summary>  
+            投注金额，用户下注的金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.EffectiveBetAmount">
+            <summary>  
+            有效投注，经过某些规则调整后的实际投注金额（如可能有优惠、折扣等）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.MemberWinLoss">
+            <summary>  
+            会员输赢，注单结算后会员的盈亏情况（正数为赢，负数为输）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PersonalReportOutput.BalanceAfterBet">
+            <summary>  
+            投注后余额，注单下注后会员的账户余额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordInput.BetTime">
+            <summary>  
+            投注时间
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordInput.GameCategoryId">
+            <summary>  
+            游戏分类id，支持单一和全部类别  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordInput.PlatformCode">
+            <summary>  
+            平台，支持单一平台或全部平台  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordInput.SettlementStatus">
+            <summary>  
+            结算状态：全部状态  已结算/未结算/已撤单  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordInput.GameCode">
+            <summary>  
+            游戏名称id 支持单一游戏或全部游戏
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordInput.GameName">
+            <summary>  
+            子游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.BetOrderId">
+            <summary>  
+            注单编号，唯一标识一个注单  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.GameSessionId">
+            <summary>  
+            牌局编号，与注单关联的牌局  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.MemberId">
+            <summary>  
+            会员ID，用户的唯一标识  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.MemberAccount">
+            <summary>  
+            会员账号，用户登录时使用的账号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.GameCategory">
+            <summary>  
+            游戏类型，如电子、体育等  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.PlatformCode">
+            <summary>  
+            游戏平台
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.GameCode">
+            <summary>  
+            子游戏id  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.GameName">
+            <summary>  
+            子游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.BetTime">
+            <summary>  
+            投注时间，注单下注的时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.SettlementTime">
+            <summary>  
+            结算时间，注单结算的时间（如果已结算）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.CurrencyTypeName">
+            <summary>  
+            币种，注单使用的货币类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.BetAmount">
+            <summary>  
+            投注金额，用户下注的金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.EffectiveBetAmount">
+            <summary>  
+            有效投注，经过某些规则调整后的实际投注金额（如可能有优惠、折扣等）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.MemberWinLoss">
+            <summary>  
+            会员输赢，注单结算后会员的盈亏情况（正数为赢，负数为输）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.BalanceAfterBet">
+            <summary>  
+            投注后余额，注单下注后会员的账户余额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.AppFront.Dto.UserReportDto.PlayRecordOutput.Status">
+            <summary>  
+            状态，注单的状态（如已结算、未结算、已撤单等）  
+            </summary>  
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserAccountService">
+            <summary>
+            用户账号
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserAccountService.UserLoginAsync(Ooph.AppFront.Dto.UserAccountDto.UserLoginInput)">
+            <summary>
+            登录平台
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserAccountService.UserLogoutAsync(Ooph.AppFront.Dto.UserAccountDto.UserLogoutInput)">
+            <summary>
+            退出平台
+            </summary>
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserGameService">
+            <summary>
+            游戏
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserGameService.PlayGameListAsync(Ooph.AppFront.Dto.UserGameDto.PlayGameListInput)">
+            <summary>
+            游戏列表
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserGameService.PlayGameLoginAsync(Ooph.AppFront.Dto.UserGameDto.PlayGameLoginInput)">
+            <summary>
+            登录游戏（游戏地址）
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserGameService.LogOutGameAsync(Ooph.AppFront.Dto.UserGameDto.LogOutGameInput)">
+            <summary>
+            退出游戏
+            </summary>
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserMemberInfoService">
+            <summary>
+            关于用户
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMemberInfoService.RegisteredMemberAsync(Ooph.AppFront.Dto.UserMemberInfoDto.RegisteredMemberInput)">
+            <summary>
+            注册会员
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMemberInfoService.GetMemberInfoAsync(Ooph.AppFront.Dto.UserMemberInfoDto.GetMemberInfoInput)">
+            <summary>
+            查询个人资料
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMemberInfoService.UpdateMemberInfoAsync(Ooph.AppFront.Dto.UserMemberInfoDto.UpdateMemberInfoInput)">
+            <summary>
+            修改个人资料 
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMemberInfoService.GetSecurityCenterAsync(Ooph.AppFront.Dto.UserMemberInfoDto.GetSecurityCenterInput)">
+            <summary>
+            查询安全中心
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMemberInfoService.UpdateSecurityCenterAsync(Ooph.AppFront.Dto.UserMemberInfoDto.UpdateSecurityCenterInput)">
+            <summary>
+            修改安全中心
+            </summary>
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserMessageService">
+            <summary>
+            消息通知
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMessageService.GetAdHallMarqueeListAsync(Ooph.AppFront.Dto.UserMessageDto.GetAdHallMarqueeListInput)">
+            <summary>
+            查询跑马灯
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMessageService.GetAdLeafletListAsync(Ooph.AppFront.Dto.UserMessageDto.GetAdLeafletListInput)">
+            <summary>
+            查询宣传列表
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMessageService.GetNoticeListAsync(Ooph.AppFront.Dto.UserMessageDto.GetNoticeListInput)">
+            <summary>
+            查询公告、通知列表
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMessageService.GetFaqQuestionAsync(Ooph.AppFront.Dto.UserMessageDto.GetFaqQuestionInput)">
+            <summary>
+            查询常见问题
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserMessageService.GetOnlineCustomerAsync(Ooph.AppFront.Dto.UserMessageDto.GetOnlineCustomerInput)">
+            <summary>
+            查询在线客服
+            </summary>
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserPopularizeService">
+            <summary>
+            关于推广
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetMyPopularizeAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetMyPopularizeInput)">
+            <summary>
+            我的数据
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetAllPopularizeAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetAllPopularizeInput)">
+            <summary>
+            全部数据
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetMyAchievementAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetMyAchievementInput)">
+            <summary>
+            我的业绩
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetMyCommissionAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetMyCommissionInput)">
+            <summary>
+            我的佣金
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetMyTeamAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetMyTeamInput)">
+            <summary>
+            我的团队
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetImmediateDataAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateDataInput)">
+            <summary>
+            直属数据
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.GetImmediateBetListAsync(Ooph.AppFront.Dto.UserPopularizeDto.GetImmediateBetListInput)">
+            <summary>
+            直属投注
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPopularizeService.RebatePercentageAsync(Ooph.AppFront.Dto.UserPopularizeDto.RebatePercentageInput)">
+            <summary>
+            返佣比例
+            </summary>
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserPreferentialService">
+            <summary>
+            优惠中心
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPreferentialService.GetActivityListAsync(Ooph.AppFront.Dto.UserPreferentialDto.GetActivityListInput)">
+            <summary>
+            查询活动列表
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPreferentialService.GetMissionListAsync(Ooph.AppFront.Dto.UserPreferentialDto.GetMissionListInput)">
+            <summary>
+            查询任务列表（可传参数：新人福利、每日任务）
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPreferentialService.GetReceiveRecordListAsync(Ooph.AppFront.Dto.UserPreferentialDto.GetReceiveRecordListInput)">
+            <summary>
+            查询领取记录
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPreferentialService.GetWaitreWardListAsync(Ooph.AppFront.Dto.UserPreferentialDto.GetWaitreWardListInput)">
+            <summary>
+            查询待领取奖励
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserPreferentialService.GetMemberLevelListAsync(Ooph.AppFront.Dto.UserPreferentialDto.GetMemberLevelListInput)">
+            <summary>
+            查询会员VIP等级列表
+            </summary>
+        </member>
+        <member name="T:Ooph.AppFront.Service.UserReportService">
+            <summary>
+            用户报表
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserReportService.AccountDetailsAsync(Ooph.AppFront.Dto.UserReportDto.AccountDetailsInput)">
+            <summary>
+            账户明细
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserReportService.PlayRecordAsync(Ooph.AppFront.Dto.UserReportDto.PlayRecordInput)">
+            <summary>
+            投注记录
+            </summary>
+        </member>
+        <member name="M:Ooph.AppFront.Service.UserReportService.PersonalReportAsync(Ooph.AppFront.Dto.UserReportDto.PersonalReportInput)">
+            <summary>
+            个人报表
+            </summary>
+        </member>
+    </members>
+</doc>

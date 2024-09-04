@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.MergePart3Game</name>
+    </assembly>
+    <members>
+        <member name="T:Ooph.MergePart3Game.ApplicationConst">
+            <summary>
+            业务应用相关常量
+            </summary>
+        </member>
+        <member name="F:Ooph.MergePart3Game.ApplicationConst.GroupName">
+            <summary>
+            API分组名称
+            </summary>
+        </member>
+    </members>
+</doc>

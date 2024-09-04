@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <NoWarn>1701;1702;1591;8632</NoWarn>
+    <DocumentationFile></DocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+    <Copyright>Ooph.Net</Copyright>
+    <Description>Ooph.Net 开发平台</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Configuration\**\*">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\**\*">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="OoLocalizationServiceCollectionExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Configuration\Localization.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OO.LocalizationProvider.AdminUI.AspNetCore" Version="8.1.0-pre-09" />
+    <PackageReference Include="OO.LocalizationProvider.Storage.MySql" Version="8.1.0-pre-13" />
+    <PackageReference Include="OO.LocalizationProvider.Translator.MicrosoftEdge" Version="8.1.0-pre-02" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ooph.ICore\Ooph.ICore.csproj" />
+  </ItemGroup>
+
+</Project>

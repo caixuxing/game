@@ -1,0 +1,1346 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.MergePart3Game.GameCQ9</name>
+    </assembly>
+    <members>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PingAsync(Ooph.MergePart3Game.GameCQ9.Models.PingInput)">
+            <summary>
+            取得时戳
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerInput)">
+            <summary>
+            建立Player
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerLoginAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerLoginInput)">
+            <summary>
+            Player登入
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerLobbylinkAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerLobbylinkInput)">
+            <summary>
+            Player 取得游戏大厅连结
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerGamelinkAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput)">
+            <summary>
+            Player 取得游戏连结
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerWithdrawAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerWithDrawInput)">
+            <summary>
+            取款
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerDepositAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerDepositInput)">
+            <summary>
+            存款
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerBalanceAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerBalanceInput)">
+            <summary>
+            查询余额
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerPwdAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerPwdInput)">
+            <summary>
+            玩家更换密码
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.GameHallsAsync(Ooph.MergePart3Game.GameCQ9.Models.GameHallsInput)">
+            <summary>
+            游戏厂商列表
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.GameListAsync(Ooph.MergePart3Game.GameCQ9.Models.GameListlInput)">
+            <summary>
+            游戏列表
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.OrderViewAsync(Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput)">
+            <summary>
+            注单查询
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.OrderRecordAsync(Ooph.MergePart3Game.GameCQ9.Models.OrderRecordInput)">
+            <summary>
+            单一注单查询
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.TransactionViewAsync(Ooph.MergePart3Game.GameCQ9.Models.TransactionViewInput)">
+            <summary>
+            交易查询
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.TransactionRecordAsync(Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordInput)">
+            <summary>
+            单一交易查询
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.TransactionHistoryAsync(Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryInput)">
+            <summary>
+            钱包历程
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.OrderSummaryAsync(Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryInput)">
+            <summary>
+            单一玩家注单小计
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerLogoutAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerLogoutInput)">
+            <summary>
+            玩家登出
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.LogoutAllAsync(Ooph.MergePart3Game.GameCQ9.Models.LogoutAllInput)">
+            <summary>
+            登出代理所有玩家
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerTokenAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerTokenInput)">
+            <summary>
+            查询玩家token
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerCheckAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerCheckInput)">
+            <summary>
+            查询玩家帐号是否存在
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.GameJackpotAsync(Ooph.MergePart3Game.GameCQ9.Models.GameJackpotInput)">
+            <summary>
+            游戏彩池金额查询
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameCQ9.IHttpCQ9Api.PlayerMslinkAsync(Ooph.MergePart3Game.GameCQ9.Models.PlayerMslinkInput)">
+            <summary>
+            取得会员系统连结
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameCQ9ResponseBase.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.ResponseBaseStatus.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.ResponseBaseStatus.Message">
+            <summary>
+            状态讯息
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.ResponseBaseStatus.Datetime">
+            <summary>
+            回应时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.ResponseBaseStatus.TraceCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.HallsData.GameHall">
+            <summary>
+            游戏厂商简称
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.HallsData.FullName">
+            <summary>
+            游戏厂商全名
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameJackpotInput.GameType">
+            <summary>
+            slot or arcade   预设值为slot
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameListlInput.GameHall">
+            <summary>
+            游戏厂商
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.Gamehall">
+            <summary>
+            游戏厂商
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.GameType">
+            <summary>
+            游戏种类
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.GameCode">
+            <summary>
+            游戏代码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.GameName">
+            <summary>
+            游戏名称
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.GameTech">
+            <summary>
+            游戏技术
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.GamePlat">
+            <summary>
+            游玩平台
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.Lang">
+            <summary>
+            支援语系
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.Status">
+            <summary>
+            游戏状态
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.MainTain">
+            <summary>
+            维护状态
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameHallData.Nameset">
+            <summary>
+            游戏名称阵列
+            </summary>
+        </member>
+        <member name="T:Ooph.MergePart3Game.GameCQ9.Models.Nameset">
+            <summary>
+            游戏名称阵列
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Nameset.Name">
+            <summary>
+            游戏名称
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Nameset.Lang">
+            <summary>
+            游戏名称语系
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.LogoutAllInput.IsAll">
+             <summary>
+             是否登出全部代理的玩家
+            ※总代为选填，若仅登出总代理玩家，此栏位勿填。
+            預設為false，若為true則會登出包含總代之全部代理的玩家※子代不應填此參數(會返回錯誤代碼38)
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.LogoutAllInput.Account">
+             <summary>
+             指定代理帐号
+            ※总代为选填，若仅登出总代理玩家，此栏位勿填。
+            若isall為true時無效，因為登出的玩家已包含總代下所有子代的玩家※子代不應填此參數(會返回錯誤代碼38)
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderRecordInput.GameCode">
+            <summary>
+            游戏代码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderRecordInput.GamneHall">
+            <summary>
+            游戏商名称
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderRecordInput.RoundId">
+             <summary>
+             注单号
+            ※roundid为唯一值
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderRecordData.Order">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GameHall">
+            <summary>
+            游戏商
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GameType">
+            <summary>
+            游戏种类
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GamePlat">
+            <summary>
+            游戏平台
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GameCode">
+            <summary>
+            游戏代码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Account">
+            <summary>
+            玩家帐号
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Round">
+             <summary>
+             注单号
+            ※round为唯一值
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Balance">
+            <summary>
+            游戏后余额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Win">
+            <summary>
+            游戏赢分（已包含彩池奖金及从PC赢得的金额）
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Bet">
+            <summary>
+            下注金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.ValidBet">
+             <summary>
+             有效下注额
+            ※此栏位值用于牌桌/真人/体彩类游戏
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Jackpot">
+            <summary>
+            彩池奖金
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.JackpotContribution">
+             <summary>
+             彩池奖金贡献值
+            ※从小彩池到大彩池依序排序
+            (Mini / Minor / Major / Grand )
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.JackpotType">
+             <summary>
+             彩池奖金类别
+            ※此栏位值为空字串时，表示未获得彩池奖金
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Status">
+             <summary>
+             注单状态[complete]
+            complete:完成
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.EndRoundTime">
+            <summary>
+            游戏结束时间，格式为RFC3339
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.CreateTime">
+            <summary>
+            当笔资料建立时间，格式为※系统结算时间, 注单结算时间及报表结算时间都是createtimeRFC3339
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.BetTime">
+            <summary>
+            下注时间，格式为RFC3339
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Detail">
+             <summary>
+             回传free game / bonus game / luckydraw / item / reward 资讯
+            ※slot 会回传free game / bonus game / luckydraw 资讯
+            ※fish 会回传item / reward 资讯
+            ※table/live 会回传空阵列
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.SingleRowBet">
+            <summary>
+            [true|false]是否为再旋转形成的注单
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GameRole">
+             <summary>
+             庄(banker) or 闲(player)
+            ※此栏位为牌桌游戏使用，非牌桌游戏此栏位值为空字串
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.BankerType">
+             <summary>
+             对战玩家是否有真人[pc|human]
+                pc：对战玩家没有真人
+                human：对战玩家有真人
+            ※此栏位为牌桌游戏使用，非牌桌游戏此栏位值为空字串
+            ※如果玩家不支持上庄，只存在与系统对玩。则bankertype 为PC
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Rake">
+             <summary>
+            抽水金额
+            ※此栏位为牌桌游戏使用
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.RoomFee">
+            <summary>
+            开房费用
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.TableType">
+             <summary>
+             真人注单参数说明名称(1=百家，4=龙虎)
+            真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空字串
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.TableId">
+            <summary>
+            桌号真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空字串
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.RoundNumber">
+             <summary>
+             局号
+            真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空字串
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.BetType">
+            <summary>
+            下注玩法真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空阵列
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GameResult">
+            <summary>
+            游戏结果真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空阵列
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.TicketId">
+            <summary>
+            免费券id
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.TicketType">
+             <summary>
+             免费券类型
+            1 = 免费游戏(获得一局free game)
+            2 = 免费spin(获得一次free spin)
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.GivenType">
+             <summary>
+              /// 免费券取得类型
+            1 = 活动赠送
+            101 = 代理赠送
+            111 = 宝箱赠送
+            112 = 商城购买
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.TicketBets">
+            <summary>
+            免费券下注额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Currency">
+            <summary>
+            币别
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.CardWin">
+            <summary>
+            派彩加成金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.Donate">
+             <summary>
+             打赏金额
+            ※此栏位为真人游戏使用，非真人游戏此栏位值为0
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Order.IsDonate">
+             <summary>
+             打赏判别
+            ※此栏位为真人游戏使用，非真人游戏此栏位值为false
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryInput.Account">
+            <summary>  
+            帐号，必填项，字符串长度限制为36个字符。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryInput.StartTime">
+            <summary>  
+            查询日期开始时间，必填项，格式为RFC3339，例如：2017-06-01T00:00:00-04:00，时区请使用UTC-4。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryInput.EndTime">
+            <summary>  
+            查询日期结束时间，必填项，格式为RFC3339，例如：2017-06-02T00:00:00-04:00，时区请使用UTC-4。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryInput.GameType">
+            <summary>  
+            报表的游戏类别，可选项，默认为"slot"。  
+            可取值为"slot"（包含slot、arcade和fish）、"table"（包含table，不含live）、"live"（包含live，不含table）。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.SummaryReport">
+            <summary>  
+            交易分组汇总列表。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalBets">
+            <summary>  
+            总押注量。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalValidBets">
+             <summary>  
+             总有效押注量
+            此栏位值用于牌桌/真人/体彩类游戏
+             </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalWins">
+            <summary>  
+            总赢分量(已包含总彩池奖金及总共从PC赢得的金额)
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalJackpots">
+            <summary>  
+            总彩池奖金  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalRake">
+             <summary>  
+             总抽水金额
+            ※此栏位为牌桌游戏使用
+             </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalRoomFee">
+            <summary>  
+            总开房费用。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderSummaryData.TotalIncome">
+            <summary>  
+            总损益。  
+            </summary>  
+        </member>
+        <member name="T:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem">
+            <summary>  
+            表示交易分组汇总列表中的单个项。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.GroupBy">
+            <summary>  
+            分组信息。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.Bets">
+            <summary>  
+            该游戏的押注量。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.ValidBet">
+             <summary>  
+             有效押注量
+            ※此栏位值用于牌桌/真人/体彩类游戏。  
+             </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.Wins">
+            <summary>  
+            该游戏的赢分量(已包含彩池奖金及从PC赢得的金额)。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.Jackpots">
+            <summary>  
+            该游戏的彩池奖金。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.Rake">
+             <summary>  
+             该游戏的抽水金额
+            ※此栏位为牌桌游戏使用。  
+             </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.RoomFee">
+            <summary>  
+            开房费用。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.SummaryReportItem.Income">
+            <summary>  
+            该游戏的损益。  
+            </summary>  
+        </member>
+        <member name="T:Ooph.MergePart3Game.GameCQ9.Models.GroupByInfo">
+            <summary>  
+            表示分组信息的实体类。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GroupByInfo.Account">
+            <summary>  
+            帐号。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GroupByInfo.GameCode">
+            <summary>  
+            游戏代码。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GroupByInfo.GameHall">
+            <summary>  
+            游戏厂商。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput.StartTime">
+            <summary>  
+            查询日期开始时间  
+            必填项，格式为RFC3339，例如：2017-06-01T00:00:00-04:00（时区请用UTC）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput.EndTime">
+            <summary>  
+            查询日期结束时间  
+            必填项，格式为RFC3339，例如：2017-06-02T00:00:00-04:00（时区请用UTC）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput.Page">
+            <summary>  
+            查询页数  
+            必填项  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput.Account">
+            <summary>  
+            玩家帐号  
+            选填项，如果不带帐号则代表查询全部。字串长度限制为36个字元。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput.PageSize">
+            <summary>  
+            每页笔数  
+            选填项，预设值为500，最大值为20000。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewInput.GameType">
+            <summary>  
+            报表的游戏类别  
+            选填项，可选值有[slot|arcade|fish|table]。若未带参数，则预设为slot。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewData.TotalSize">
+            <summary>
+            总笔数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.OrderViewData.Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GameHall">
+            <summary>
+            游戏商
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GameType">
+            <summary>
+            游戏种类
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GamePlat">
+            <summary>
+            游戏平台
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GameCode">
+            <summary>
+            游戏代码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Account">
+            <summary>
+            玩家帐号
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Round">
+             <summary>
+             注单号
+            ※round为唯一值
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Balance">
+            <summary>
+            游戏后余额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Win">
+            <summary>
+            游戏赢分（已包含彩池奖金及从PC赢得的金额）
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Bet">
+            <summary>
+            下注金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.ValidBet">
+             <summary>
+             有效下注额
+            ※此栏位值用于牌桌/真人/体彩类游戏
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Jackpot">
+            <summary>
+            彩池奖金
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.JackpotContribution">
+             <summary>
+             彩池奖金贡献值
+            ※从小彩池到大彩池依序排序
+            (Mini / Minor / Major / Grand )
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.JackpotType">
+             <summary>
+             彩池奖金类别
+            ※此栏位值为空字串时，表示未获得彩池奖金
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Status">
+             <summary>
+             注单状态[complete]
+            complete:完成
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.EndRoundTime">
+            <summary>
+            游戏结束时间，格式为RFC3339
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.CreateTime">
+            <summary>
+            当笔资料建立时间，格式为※系统结算时间, 注单结算时间及报表结算时间都是createtimeRFC3339
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.BetTime">
+            <summary>
+            下注时间，格式为RFC3339
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Detail">
+             <summary>
+             回传free game / bonus game / luckydraw / item / reward 资讯
+            ※slot 会回传free game / bonus game / luckydraw 资讯
+            ※fish 会回传item / reward 资讯
+            ※table/live 会回传空阵列
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.SingleRowBet">
+            <summary>
+            [true|false]是否为再旋转形成的注单
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GameRole">
+             <summary>
+             庄(banker) or 闲(player)
+            ※此栏位为牌桌游戏使用，非牌桌游戏此栏位值为空字串
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.BankerType">
+             <summary>
+             对战玩家是否有真人[pc|human]
+                pc：对战玩家没有真人
+                human：对战玩家有真人
+            ※此栏位为牌桌游戏使用，非牌桌游戏此栏位值为空字串
+            ※如果玩家不支持上庄，只存在与系统对玩。则bankertype 为PC
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Rake">
+             <summary>
+            抽水金额
+            ※此栏位为牌桌游戏使用
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.RoomFee">
+            <summary>
+            开房费用
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.TableType">
+             <summary>
+             真人注单参数说明名称(1=百家，4=龙虎)
+            真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空字串
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.TableId">
+            <summary>
+            桌号真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空字串
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.RoundNumber">
+             <summary>
+             局号
+            真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空字串
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.BetType">
+            <summary>
+            下注玩法真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空阵列
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GameResult">
+            <summary>
+            游戏结果真人参数说明※此栏位为真人游戏使用，非真人游戏此栏位值为空阵列
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.TicketId">
+            <summary>
+            免费券id
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.TicketType">
+             <summary>
+             免费券类型
+            1 = 免费游戏(获得一局free game)
+            2 = 免费spin(获得一次free spin)
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.GivenType">
+             <summary>
+              /// 免费券取得类型
+            1 = 活动赠送
+            101 = 代理赠送
+            111 = 宝箱赠送
+            112 = 商城购买
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.TicketBets">
+            <summary>
+            免费券下注额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Currency">
+            <summary>
+            币别
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.CardWin">
+            <summary>
+            派彩加成金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.Donate">
+             <summary>
+             打赏金额
+            ※此栏位为真人游戏使用，非真人游戏此栏位值为0
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameRecord.IsDonate">
+             <summary>
+             打赏判别
+            ※此栏位为真人游戏使用，非真人游戏此栏位值为false
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameDetail.FreeGame">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameDetail.LuckyDraw">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameDetail.Bonus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameResult.Points">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GameResult.Cards">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Card.Poker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.Card.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerBalanceInput.Account">
+             <summary>
+             玩家帐号
+            ※字串长度限制36个字元
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.BalanceData.Balance">
+            <summary>
+            余额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.BalanceData.Currency">
+            <summary>
+            string?
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerCheckInput.Account">
+             <summary>
+             玩家帐号
+            ※字串长度限制36个字元
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerDepositInput.Account">
+            <summary>  
+            玩家帐号  
+            字串长度限制36个字元  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerDepositInput.MtCode">
+            <summary>  
+            交易代码  
+            格式请参考API注意事项  
+            mtcode为唯一值  
+            </summary> 
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerDepositInput.Amount">
+            <summary>  
+            金额  
+            数值长度限制小数点前12位、小数点后4位  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.DepositData.Balance">
+            <summary>
+            余额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.DepositData.Currency">
+            <summary>
+            币种
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.UserToken">
+            <summary>  
+            使用者Token  
+            必填项  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.GameHall">
+            <summary>  
+            游戏厂商  
+            必填项  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.GameCode">
+            <summary>  
+            游戏代码  
+            必填项  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.GamePlat">
+            <summary>  
+            游戏平台  
+            必填项，请填入web或mobile。若不为该游戏平台时，将带入预设值，预设值为web。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.Lang">
+            <summary>  
+            语言代码  
+            必填项，目前全额提供zh-cn, en。多数已支援th，确切支援程度请调用游戏列表API回传资讯。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.App">
+            <summary>  
+            是否是透过app执行游戏  
+            选填项，Y=是，N=否，预设为N。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.Detect">
+            <summary>  
+            是否开启阻挡不合游戏规格浏览器提示  
+            选填项，Y=是，N=否，预设为N。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerGamelinkInput.Dollarsign">
+            <summary>
+            选填项，Y=是，N=否，预设为N。 
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GamelinkData.Url">
+            <summary>  
+            游戏连结  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.GamelinkData.Token">
+            <summary>  
+            游戏Token  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerInput.Account">
+            <summary>  
+            玩家帐号  
+            a-z A-Z 0-9 _-，长度限制36个字元  账号长度不能超过36个字符
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerInput.Password">
+            <summary>  
+            玩家密码  
+            a-z A-Z 0-9 _-  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerInput.Nickname">
+            <summary>  
+            玩家别名  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLobbylinkInput.UserToken">
+            <summary>  
+            使用者Token  
+            必填项  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLobbylinkInput.Lang">
+            <summary>  
+            语言代码  
+            选填项，目前全额提供zh-cn, en。多数已支援th, vn。  
+            确切支援程度请调用游戏列表API回传资讯。  
+            若未带参数则预设为en。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLobbylinkInput.App">
+            <summary>  
+            是否是透过app执行游戏  
+            选填项，Y=是，N=否，预设为N。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLobbylinkInput.Detect">
+            <summary>  
+            是否开启阻挡不合游戏规格浏览器提示  
+            选填项，Y=是，N=否，预设为N。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.LobbylinkData.Url">
+            <summary>  
+            游戏大厅连结  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.LobbylinkData.Token">
+            <summary>  
+            游戏大厅Token  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLoginInput.Account">
+             <summary>
+             玩家帐号
+            ※字串长度限制36个字元
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLoginInput.Password">
+            <summary>
+            玩家密码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.LoginData.Usertoken">
+            <summary>
+            使用者Token
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerLogoutInput.Account">
+            <summary>
+            player帐号  ※字串长度限制36个字元
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerMslinkInput.UserToken">
+            <summary>
+            使用者Token 必填	
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerMslinkInput.Lang">
+             <summary>
+             语言代码，目前全额提供zh-cn ,en 多数已支援th ,vn，确切支援程度请调用游戏列表API 回传资讯，
+            ※若未帶參數則預設為en  选填
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerMslinData.Token">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerMslinData.Url">
+            <summary>
+            会员系统连结
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerData.Account">
+            <summary>  
+            玩家帐号  
+            a-z A-Z 0-9 _-，长度限制36个字元  账号长度不能超过36个字符
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerData.Password">
+            <summary>  
+            玩家密码  
+            a-z A-Z 0-9 _-  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerData.Nickname">
+            <summary>  
+            玩家别名  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerPwdInput.Account">
+            <summary>
+            玩家账号，字串长度限制36个字元
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerPwdInput.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerTokenInput.Account">
+             <summary>
+             玩家帐号
+            ※字串长度限制36个字元
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PalayerTokenData.UserToken">
+            <summary>  
+            使用者token  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PalayerTokenData.Status">
+            <summary>  
+            状态：login/logout/gaming login:登入中 logout:尚未登入 gaming:游戏中  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PalayerTokenData.Count">
+            <summary>  
+            玩家开启游戏的数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerWithDrawInput.Account">
+            <summary>  
+            玩家帐号  
+            字串长度限制36个字元  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerWithDrawInput.MtCode">
+            <summary>  
+            交易代码  
+            格式请参考API注意事项  
+            mtcode为唯一值  
+            </summary> 
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.PlayerWithDrawInput.Amount">
+            <summary>  
+            金额  
+            数值长度限制小数点前12位、小数点后4位  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.WithDrawData.Balance">
+            <summary>
+            余额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.WithDrawData.Currency">
+            <summary>
+            币别
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryInput.Account">
+            <summary>  
+            帐号，必填项，字符串长度限制为36个字符。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryInput.StartTime">
+            <summary>  
+            查询日期开始时间，必填项，格式为RFC3339，例如：2017-06-01T00:00:00-04:00，时区请使用UTC-4。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryInput.EndTime">
+            <summary>  
+            查询日期结束时间，必填项，格式为RFC3339，例如：2017-06-02T00:00:00-04:00，时区请使用UTC-4。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryInput.Page">
+            <summary>  
+            查询页数，必填项。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryInput.PageSize">
+            <summary>  
+            每页笔数，可选项，默认值为500，最大值为2000。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryData.Total">
+            <summary>  
+            总笔数，表示查询结果中的总记录数。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryData.List">
+            <summary>  
+            
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Mtcode">
+            <summary>  
+            交易代码，用于标识唯一的交易。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Currency">
+            <summary>  
+            币别，表示交易使用的货币类型。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Amount">
+            <summary>  
+            金额，表示交易的具体数额，使用float64类型表示。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.EventTime">
+            <summary>  
+            事件时间，表示交易发生的时间，格式为字符串。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Balance">
+            <summary>  
+            处理后余额，表示交易完成后账户中的余额。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Before">
+            <summary>  
+            处理前余额，表示交易发生前账户中的余额。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Action">
+            <summary>  
+            动作，表示交易的类型，可取值为"cashin"（存款）、"cashout"（提款）、"rollin"（游戏转入）、  
+            "rollout"（游戏转出）、"bet"（下注）、"win"（赢分）、"payoff"（派彩）、"refund"（退款）。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionHistoryItem.Status">
+            <summary>  
+            状态，表示交易的结果，可取值为"success"（成功）、"failed"（失败）、"pending"（尚未完成交易）、  
+            "refund"（退款）。注意："refund"在这里同时作为状态和动作，具体含义需结合上下文判断。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordInput.MtCode">
+            <summary>
+            交易代码
+            mtcode为唯一值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.MtCode">
+            <summary>  
+            交易代码，用于标识唯一的交易。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.Currency">
+            <summary>  
+            币别，表示交易使用的货币类型。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.Amount">
+            <summary>  
+            金额，表示交易的具体数额。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.EventTime">
+            <summary>  
+            事件时间，表示交易发生的时间。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.Balance">
+            <summary>  
+            余额，表示交易后的账户余额。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.Action">
+            <summary>  
+            动作，表示交易的类型，可取值为"cashin"（充值）或"cashout"（提现）。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionRecordData.Status">
+            <summary>  
+            状态，表示交易的结果，可取值为"success"（成功）、"failed"（失败）或"pending"（尚未完成交易）。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewInput.StartTime">
+            查询日期开始时间，格式为RFC3339，例如：2017-06-01T00:00:00-04:00  
+            时区请使用UTC-4  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewInput.Account">
+            <summary>
+            帐号，字符串长度限制为36个字符  
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewInput.Page">
+            <summary>
+            查询页数，必填  
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewInput.PageSize">
+            <summary>
+            每页笔数，可选，默认值为500，最大值为2000  
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewData.Total">
+            <summary>  
+            总笔数。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.Mtcode">
+            <summary>  
+            交易代码。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.Currency">
+            <summary>  
+            币别。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.Amount">
+            <summary>  
+            金额。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.EventTime">
+            <summary>  
+            事件时间。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.Balance">
+            <summary>  
+            余额。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.Action">
+            <summary>  
+            动作，可取值为cashin（充值）或cashout（提现）。  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameCQ9.Models.TransactionViewItem.Status">
+            <summary>  
+            状态，可取值为success（成功）、failed（失败）或pending（尚未完成交易）。  
+            </summary>  
+        </member>
+    </members>
+</doc>

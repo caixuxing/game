@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.Worker</name>
+    </assembly>
+    <members>
+        <member name="T:Ooph.Worker.AppConst">
+            <summary>
+            业务应用相关常量
+            </summary>
+        </member>
+        <member name="F:Ooph.Worker.AppConst.GroupName">
+            <summary>
+            API分组名称
+            </summary>
+        </member>
+        <member name="T:Ooph.Core.Job.CurrencyRateSyncJob">
+            <summary>
+            币种汇率同步任务
+            </summary>
+        </member>
+        <member name="T:Ooph.Core.Job.RateSyncSettingsDto">
+            <summary>
+            汇率同步设置VFormDto
+            </summary>
+        </member>
+        <member name="P:Ooph.Core.Job.RateSyncSettingsDto.DepositsWithdrawalsSet">
+            <summary>
+            汇率充提设置
+            </summary>
+        </member>
+        <member name="P:Ooph.Core.Job.RateSyncSettingsDto.UpdateType">
+            <summary>
+            更新方式
+            </summary>
+        </member>
+        <member name="P:Ooph.Core.Job.RateSyncSettingsDto.Frequency">
+            <summary>
+            更新频率
+            </summary>
+        </member>
+    </members>
+</doc>

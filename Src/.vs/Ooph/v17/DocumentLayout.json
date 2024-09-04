@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\github\\Ooph.Web\\Src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEC31C1-AE6F-461A-8670-FD219E6ED418}|Plugins\\Ooph.MergePart3Games\\Games\\GameJiLi\\Ooph.MergePart3Game.GameJiLi\\Ooph.MergePart3Game.GameJiLi.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.mergepart3games\\games\\gamejili\\ooph.mergepart3game.gamejili\\signrequestbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DEC31C1-AE6F-461A-8670-FD219E6ED418}|Plugins\\Ooph.MergePart3Games\\Games\\GameJiLi\\Ooph.MergePart3Game.GameJiLi\\Ooph.MergePart3Game.GameJiLi.csproj|solutionrelative:plugins\\ooph.mergepart3games\\games\\gamejili\\ooph.mergepart3game.gamejili\\signrequestbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD6D2E-29CA-4102-B5B0-DDB9642E878B}|Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\Ooph.IMergePart3Game.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.mergepart3games\\ooph.imergepart3game\\ipart3game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD6D2E-29CA-4102-B5B0-DDB9642E878B}|Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\Ooph.IMergePart3Game.csproj|solutionrelative:plugins\\ooph.mergepart3games\\ooph.imergepart3game\\ipart3game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CD6D2E-29CA-4102-B5B0-DDB9642E878B}|Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\Ooph.IMergePart3Game.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.mergepart3games\\ooph.imergepart3game\\handlelang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CD6D2E-29CA-4102-B5B0-DDB9642E878B}|Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\Ooph.IMergePart3Game.csproj|solutionrelative:plugins\\ooph.mergepart3games\\ooph.imergepart3game\\handlelang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18C1B5A-B349-47D6-980B-6C6764EB5936}|Plugins\\Ooph.MergePart3Games\\Ooph.MergePart3Game\\Ooph.MergePart3Game.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.mergepart3games\\ooph.mergepart3game\\part3gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18C1B5A-B349-47D6-980B-6C6764EB5936}|Plugins\\Ooph.MergePart3Games\\Ooph.MergePart3Game\\Ooph.MergePart3Game.csproj|solutionrelative:plugins\\ooph.mergepart3games\\ooph.mergepart3game\\part3gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891C3A41-9416-49BD-918D-07083B169018}|Ooph.Database\\Ooph.Database.csproj|d:\\work\\github\\ooph.web\\src\\ooph.database\\entity\\oocurrencyrateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891C3A41-9416-49BD-918D-07083B169018}|Ooph.Database\\Ooph.Database.csproj|solutionrelative:ooph.database\\entity\\oocurrencyrateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891C3A41-9416-49BD-918D-07083B169018}|Ooph.Database\\Ooph.Database.csproj|d:\\work\\github\\ooph.web\\src\\ooph.database\\seeddata\\oocurrencyrateconfigseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891C3A41-9416-49BD-918D-07083B169018}|Ooph.Database\\Ooph.Database.csproj|solutionrelative:ooph.database\\seeddata\\oocurrencyrateconfigseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7A9CB0-D99F-4479-8392-3EC491884733}|Plugins\\Ooph.AppBackground\\Ooph.AppBackground.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.appbackground\\service\\oocurrencyrateconfig\\oocurrencyrateconfigservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7A9CB0-D99F-4479-8392-3EC491884733}|Plugins\\Ooph.AppBackground\\Ooph.AppBackground.csproj|solutionrelative:plugins\\ooph.appbackground\\service\\oocurrencyrateconfig\\oocurrencyrateconfigservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D0AE59-E041-430D-BAC5-BA87CF58B715}|Plugins\\Ooph.Worker\\Ooph.Worker.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.worker\\job\\currencyratesyncjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D0AE59-E041-430D-BAC5-BA87CF58B715}|Plugins\\Ooph.Worker\\Ooph.Worker.csproj|solutionrelative:plugins\\ooph.worker\\job\\currencyratesyncjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7A9CB0-D99F-4479-8392-3EC491884733}|Plugins\\Ooph.AppBackground\\Ooph.AppBackground.csproj|d:\\work\\github\\ooph.web\\src\\plugins\\ooph.appbackground\\service\\oocurrencyrateconfig\\vformobject\\ratesyncsettingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7A9CB0-D99F-4479-8392-3EC491884733}|Plugins\\Ooph.AppBackground\\Ooph.AppBackground.csproj|solutionrelative:plugins\\ooph.appbackground\\service\\oocurrencyrateconfig\\vformobject\\ratesyncsettingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignRequestBody.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Games\\GameJiLi\\Ooph.MergePart3Game.GameJiLi\\SignRequestBody.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.MergePart3Games\\Games\\GameJiLi\\Ooph.MergePart3Game.GameJiLi\\SignRequestBody.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Games\\GameJiLi\\Ooph.MergePart3Game.GameJiLi\\SignRequestBody.cs",
+              "RelativeToolTip": "Plugins\\Ooph.MergePart3Games\\Games\\GameJiLi\\Ooph.MergePart3Game.GameJiLi\\SignRequestBody.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:36:12.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPart3Game.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\IPart3Game.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\IPart3Game.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\IPart3Game.cs",
+              "RelativeToolTip": "Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\IPart3Game.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:35:59.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HandleLang.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\HandleLang.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\HandleLang.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\HandleLang.cs",
+              "RelativeToolTip": "Plugins\\Ooph.MergePart3Games\\Ooph.IMergePart3Game\\HandleLang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:35:56.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Part3GameService.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Ooph.MergePart3Game\\Part3GameService.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.MergePart3Games\\Ooph.MergePart3Game\\Part3GameService.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.MergePart3Games\\Ooph.MergePart3Game\\Part3GameService.cs",
+              "RelativeToolTip": "Plugins\\Ooph.MergePart3Games\\Ooph.MergePart3Game\\Part3GameService.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:35:46.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OoCurrencyRateConfigSeedData.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Ooph.Database\\SeedData\\OoCurrencyRateConfigSeedData.cs",
+              "RelativeDocumentMoniker": "Ooph.Database\\SeedData\\OoCurrencyRateConfigSeedData.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Ooph.Database\\SeedData\\OoCurrencyRateConfigSeedData.cs",
+              "RelativeToolTip": "Ooph.Database\\SeedData\\OoCurrencyRateConfigSeedData.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwC8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:32:34.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CurrencyRateSyncJob.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.Worker\\Job\\CurrencyRateSyncJob.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.Worker\\Job\\CurrencyRateSyncJob.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.Worker\\Job\\CurrencyRateSyncJob.cs",
+              "RelativeToolTip": "Plugins\\Ooph.Worker\\Job\\CurrencyRateSyncJob.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:16:24.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OoCurrencyRateConfig.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Ooph.Database\\Entity\\OoCurrencyRateConfig.cs",
+              "RelativeDocumentMoniker": "Ooph.Database\\Entity\\OoCurrencyRateConfig.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Ooph.Database\\Entity\\OoCurrencyRateConfig.cs",
+              "RelativeToolTip": "Ooph.Database\\Entity\\OoCurrencyRateConfig.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAswGoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:06:25.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RateSyncSettingsDto.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\VFormObject\\RateSyncSettingsDto.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\VFormObject\\RateSyncSettingsDto.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\VFormObject\\RateSyncSettingsDto.cs",
+              "RelativeToolTip": "Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\VFormObject\\RateSyncSettingsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:59:55.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OoCurrencyRateConfigService.cs",
+              "DocumentMoniker": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\OoCurrencyRateConfigService.cs",
+              "RelativeDocumentMoniker": "Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\OoCurrencyRateConfigService.cs",
+              "ToolTip": "D:\\work\\github\\Ooph.Web\\Src\\Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\OoCurrencyRateConfigService.cs",
+              "RelativeToolTip": "Plugins\\Ooph.AppBackground\\Service\\OoCurrencyRateConfig\\OoCurrencyRateConfigService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAApwCUAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:59:53.402Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://gitee.com/dotnetchina/Furion/raw/v4/schemas/v4/furion-schema.json",
+
+  "Urls": "http://*:5005", // 配置默认端口
+  // "https_port": 44325,
+
+  "AllowedHosts": "*",
+
+  "AppSettings": {
+    "InjectSpecificationDocument": true, // 生产环境是否开启Swagger
+    "ExternalAssemblies": [ "plugins" ] // 插件目录
+  },
+  "DynamicApiControllerSettings": {
+    //"DefaultRoutePrefix": "api", // 默认路由前缀
+    "CamelCaseSeparator": "", // 驼峰命名分隔符
+    "SplitCamelCase": false, // 切割骆驼(驼峰)/帕斯卡命名
+    "LowercaseRoute": false, // 小写路由格式
+    "AsLowerCamelCase": true, // 小驼峰命名（首字母小写）
+    "KeepVerb": false, // 保留动作方法请求谓词
+    "KeepName": false // 保持原有名称不处理
+  },
+  "FriendlyExceptionSettings": {
+    "DefaultErrorMessage": "系统异常，请联系管理员",
+    "ThrowBah": true, // 是否将 Oops.Oh 默认抛出为业务异常
+    "LogError": false // 是否输出异常日志
+  },
+  "LocalizationSettings": {
+    "SupportedCultures": [ "zh-CN", "en", "en-US", "id-ID" ], // 语言列表
+    "DefaultCulture": "zh-CN", // 默认语言
+    //"DateTimeFormatCulture": "zh-CN", // 固定时间区域为特定时区（多语言）
+    "DateTimeFormatCulture": "" // 固定时间区域为特定时区（多语言）
+  },
+  "CorsAccessorSettings": {
+    //"PolicyName": "App.Cors.Policy",
+    //"WithOrigins": [ "http://localhost:5005", "https://gitee.com" ],
+    "WithExposedHeaders": [ "Content-Disposition", "X-Pagination", "access-token", "x-access-token" ], // 如果前端不代理且是axios请求
+    "SignalRSupport": true // 启用 SignalR 跨域支持
+  },
+  "SnowId": {
+    "WorkerId": 0, // 机器码 全局唯一
+    "WorkerIdBitLength": 2, // 机器码位长 默认值6，取值范围 [1, 19]
+    "SeqBitLength": 6, // 序列数位长 默认值6，取值范围 [3, 21]（建议不小于4，值越大性能越高、Id位数也更长）
+    "WorkerPrefix": "snowid_", // 缓存前缀
+    "BaseTime": "2023-07-25 00:00:00",
+    "DataCenterId": 0,
+    "DataCenterIdBitLength": 0,
+    "TimestampType": 1
+  },
+  "Cryptogram": {
+    "StrongPassword": false, // 是否开启密码强度验证
+    "PasswordStrengthValidation": "(?=^.{6,16}$)(?=.*\\d)(?=.*\\W+)(?=.*[A-Z])(?=.*[a-z])(?!.*\\n).*$", // 密码强度验证正则表达式，必须须包含大小写字母、数字和特殊字符的组合，长度在6-16之间
+    "PasswordStrengthValidationMsg": "密码必须包含大小写字母、数字和特殊字符的组合，长度在6-16之间", // 密码强度验证消息提示
+    "CryptoType": "SM2", // 密码加密算法：MD5、SM2、SM4
+    "PublicKey": "04C7D426C9E50F4F76AC77F55D955C0D63DEBA09448FD3E6FA58CD6D6236B1367EBECE0BB11C7560541EAFE44DE7136E9D584BAC8978EABE1A401D4A34B9FAD531", // 公钥
+    "PrivateKey": "9A090B4DBCE001FB33970754BF9BCFD2345EABF9ED0CE2C936E0E43298051A74" // 私钥
+  }
+}

@@ -1,0 +1,17 @@
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\bin\Debug\net8.0\Ooph.MergePart3Game.Models.deps.json
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\bin\Debug\net8.0\Ooph.MergePart3Game.Models.dll
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\bin\Debug\net8.0\Ooph.MergePart3Game.Models.pdb
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\bin\Debug\net8.0\Ooph.MergePart3Game.Models.xml
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\bin\Debug\net8.0\Ooph.ICore.dll
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\bin\Debug\net8.0\Ooph.ICore.pdb
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.csproj.AssemblyReference.cache
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.AssemblyInfoInputs.cache
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.AssemblyInfo.cs
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.csproj.CoreCompileInputs.cache
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.Mer.FD9CE68E.Up2Date
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.dll
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\refint\Ooph.MergePart3Game.Models.dll
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.xml
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\Ooph.MergePart3Game.Models.pdb
+E:\work\project\Ooph.Web\Src\Plugins\Ooph.MergePart3Games\Ooph.MergePart3Game.Models\obj\Debug\net8.0\ref\Ooph.MergePart3Game.Models.dll

@@ -1,0 +1,1145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ooph.MergePart3Game.GameJiLi</name>
+    </assembly>
+    <members>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.LoginWithoutRedirectAsync(Ooph.MergePart3Game.GameJiLi.Models.LoginWithoutRedirectInput)">
+            <summary>
+            登入返還位置
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.CreateMemberAsync(Ooph.MergePart3Game.GameJiLi.Models.CreateMemberInput)">
+            <summary>
+            建立账号
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.KickMemberAsync(Ooph.MergePart3Game.GameJiLi.Models.KickMemberInput)">
+            <summary>
+            注销游戏
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.KickMemberAllAsync(Ooph.MergePart3Game.GameJiLi.Models.KickMemberAllInput)">
+            <summary>
+            注销游戏(全踢或依游戏)
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetMemberInfoAsync(Ooph.MergePart3Game.GameJiLi.Models.GetMemberInfoInput)">
+            <summary>
+            查询会员状态
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetOnlineMemberAsync(Ooph.MergePart3Game.GameJiLi.Models.GetOnlineMemberInput)">
+            <summary>
+            查询所有在线玩家账号
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.CheckTransferByTransactionIdAsync(Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdInput)">
+            <summary>
+            查询一笔额度转移纪录(依 TransactionId)
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetTransferRecordByTimeAsync(Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeInput)">
+            <summary>
+            查询额度转移纪录 (依时间范围)
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetBetRecordByTimeAsync(Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput)">
+            <summary>
+            查询游戏纪录 (依时间范围)
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetGameListAsync(Ooph.MergePart3Game.GameJiLi.Models.GetGameListInput)">
+            <summary>
+            查询游戏清单
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetGameDetailUrlAsync(Ooph.MergePart3Game.GameJiLi.Models.GetGameDetailUrlInput)">
+            <summary>
+            取得注单详细结果连结
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.ExchangeTransferByAgentIdAsync(Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdInput)">
+            <summary>
+            额度转移(比值绑定 AgentId)
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetMustHitByAsync(Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByInput)">
+            <summary>
+            查詢 MustHitBy
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetUserBetRecordByTimeAsync(Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput)">
+            <summary>
+            查詢單一玩家遊戲紀錄(依時間範圍)
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.CreateFreeSpinAsync(Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput)">
+            <summary>
+            给予玩家免费游戏局数
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetFreeSpinRecordSummaryAsync(Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryInput)">
+            <summary>
+            查询 FreeSpin 总览
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetFreeSpinSendDetailAsync(Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailInput)">
+            <summary>
+            查询 FreeSpin 已派送细节
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetFreeSpinRecordByTimeAsync(Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput)">
+            <summary>
+            查询 FreeSpin 游戏纪录
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetFreeSpinDashflowAsync(Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowInput)">
+            <summary>
+            查询 FreeSpin 已使用纪录
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.GetFreeSpinRecordByReferenceIDAsync(Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDInput)">
+            <summary>
+            透过序号查询 FreeSpin 游戏纪录
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.CancelFreeSpinAsync(Ooph.MergePart3Game.GameJiLi.Models.CancelFreeSpinInput)">
+            <summary>
+            取消已赠送的 FreeSpin 次数
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.CancelFreeSpinByAccountAsync(Ooph.MergePart3Game.GameJiLi.Models.CancelFreeSpinByAccountInput)">
+            <summary>
+            取消玩家的免费游戏次数
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.IHttpJiLiApi.CreateFreeSpinForManyAsync(Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput)">
+            <summary>
+            给予多个玩家免费游戏局数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CancelFreeSpinByAccountInput.Account">
+            <summary>
+            玩家账号
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CancelFreeSpinByAccountData.CancelTime">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CancelFreeSpinInput.ReferenceId">
+            <summary>
+            免费游戏序号
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CancelFreeSpinData.CancelTime">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdInput.TransactionId">
+            <summary>
+            交易序号，额度转移纪录唯一值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdData.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdData.TransactionId">
+            <summary>
+            交易序号，额度转移纪录唯一值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdData.TransferTime">
+            <summary>
+            交易时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdData.Amount">
+            <summary>
+            交易金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdData.TransferType">
+             <summary>
+             转账类型
+            1: 从 游戏商 转移额度到 平台商
+            2: 从 平台商 转移额度到 游戏商
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CheckTransferByTransactionIdData.Status">
+             <summary>
+             状态：
+            1: 成功
+            2: 失败
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.Accounts">
+            <summary>  
+            玩家账号，新玩家则会自动创立账号。超过一笔时以逗号分隔（最多200笔账号）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.Currency">
+            <summary>  
+            转账钱包，这项请填空字符串  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.ReferenceIds">
+            <summary>  
+            免费局数序号，长度上限50，超过一笔时以逗号分隔（最多200笔序号）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.FreeSpinValidity">
+            <summary>  
+            有效期限，格式为 YYYY-MM-DDTHH:MM:SS (2006-01-02T15:04:05)，时区为 GMT-4  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.NumberOfRounds">
+            <summary>  
+            局数  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.GameIds">
+            <summary>  
+            可使用游戏ID，超过一笔时以逗号分隔；长度（含逗号）上限200  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.BetValue">
+            <summary>  
+            指定投注额；未指定时，一律使用游戏中的最小投注额  
+            注意：这里使用0作为默认值表示未指定  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyInput.StartTime">
+            <summary>  
+            免费游戏局数可使用的开始时间，格式为 YYYY-MM-DDTHH:MM:SS (2006-01-02T15:04:05)，时区为 GMT-4  
+            未带此参数时，赠送后玩家可以立即使用  
+            注意：这个属性在计算key时被忽略  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyData.CreateTime">
+            <summary>  
+            时间戳  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyData.FailedAccounts">
+            <summary>  
+            给予免费游戏局数失败的账号列表  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyData.FailedReferenceIds">
+            <summary>  
+            给予免费游戏局数失败的序号列表  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyData.FailedErrorCodes">
+            <summary>  
+            失败各序号对应的错误码列表  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinForManyData.FailedMessages">
+            <summary>  
+            失败各序号对应的错误讯息列表  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.Account">
+            <summary>  
+            玩家账号。新玩家则会自动创立账号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.Currency">
+            <summary>  
+            玩家使用货币。转账钱包这项请填空字符串  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.ReferenceId">
+            <summary>  
+            免费局数序号, 长度上限 50  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.FreeSpinValidity">
+            <summary>  
+            有效期限, 格式为 YYYY-MM-DDTHH:MM:SS (例如 2006-01-02T15:04:05), 时区为 GMT-4  
+            注意：这里存储为UTC时间，应用层面需考虑时区转换  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.NumberOfRounds">
+            <summary>  
+            局数  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.GameIds">
+            <summary>  
+            可使用游戏 ID, 超过一笔时以逗号分隔; 长度 (含逗号) 上限 200  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.BetValue">
+            <summary>  
+            指定投注额; 未指定时, 一律使用游戏中的最小投注额  
+            注意：此属性在计算Key时请忽略  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinInput.StartTime">
+            <summary>  
+            免费游戏局数可使用的开始时间, 格式为 YYYY-MM-DDTHH:MM:SS (例如 2006-01-02T15:04:05), 时区为 GMT-4  
+            未带此参数时, 赠送后玩家可以立即使用  
+            注意：此属性在计算Key时请忽略  
+            注意：这里存储为UTC时间，应用层面需考虑时区转换  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateFreeSpinData.CreateTime">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.CreateMemberInput.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdInput.Account">
+            <summary>  
+            会员唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdInput.TransactionId">
+            <summary>  
+            交易序号，额度转移纪录唯一值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdInput.Amount">
+            <summary>  
+            转账金额  
+            注意：在C#中，我们使用decimal类型来表示金钱，因为它提供了比float或double更高的精度  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdInput.TransferType">
+             <summary>  
+             转账类型  
+             转账类型
+            1: 从 游戏商 转移额度到 平台商(不看 amount 值，全部转出)
+            2: 从 平台商 转移额度到 游戏商
+            3: 从 游戏商 转移额度到 平台商
+             注意：这里原始说明中列出了两次"从 游戏商 转移额度到 平台商"，但根据编号和常规理解，我假设第二个应该是从平台商到游戏商的转账  
+             如果确实存在两个相同的从游戏商到平台商的转账类型，请根据实际情况调整或添加新的类型编号  
+             </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdData.TransactionId">
+            <summary>  
+            交易序号，额度转移纪录唯一值  
+            长度上限 50，与请求中的 TransactionId 相同  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdData.CoinBefore">
+            <summary>  
+            转账前金额  (游戏币)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdData.CoinAfter">
+            <summary>  
+            转账后金额  (游戏币)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdData.CurrencyBefore">
+            <summary>  
+            转账前金额  (指定货币)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdData.CurrencyAfter">
+            <summary>  
+            转账后金额  (指定货币)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.ExchangeTransferByAgentIdData.Status">
+            <summary>  
+            状态  
+            1: 成功  
+            2: 失败  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GameJiliResponseBase.ErrorCode">
+            <summary>
+            代理编号
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GameJiliResponseBase.Message">
+            <summary>
+            状态描述
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GameJiliResponsePagination.CurrentPage">
+            <summary>
+            当前页数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GameJiliResponsePagination.TotalPages">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GameJiliResponsePagination.PageLimit">
+            <summary>
+            每页笔数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GameJiliResponsePagination.TotalNumber">
+            <summary>
+            总笔数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput.StartTime">
+            <summary>  
+            查询开始时间  
+            格式: YYYY-MM-DDThh:mm:ss，例如 2021-01-01T03:00:00  
+            请注意使用 GMT-4 时区的时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput.EndTime">
+            <summary>  
+            查询结束时间  
+            格式同 StartTime  
+            由于游戏纪录会有写入延迟, 建议使用 5 到 10 分钟前的时间作为 EndTime  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput.Page">
+            <summary>  
+            页数（从 1 开始）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput.PageLimit">
+            <summary>  
+            每页资料笔数, 最少 10000, 最多 25000  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput.GameId">
+            <summary>  
+            游戏的唯一识别值  
+            注意：在计算 key 时请忽略此属性  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeInput.FilterAgent">
+            <summary>  
+            过滤条件：站长(AgentId)  
+            1: 只捞取该站长(AgentId)代理的注单  
+            0 或不带值: 捞取所有站长代理的注单  
+            注意：在计算 key 时请忽略此属性  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.WagersId">
+            <summary>
+            在游戏内注单唯一值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.GameId">
+            <summary>
+            游戏的唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.WagersTime">
+            <summary>
+            投注时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.BetAmount">
+            <summary>
+            投注金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.PayoffTime">
+            <summary>
+            派彩时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.PayoffAmount">
+            <summary>
+            派彩金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.Status">
+             <summary>
+             注单状态：
+            1: 赢 2: 输 3: 平局
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.SettlementTime">
+            <summary>
+            对帐时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.GameCategoryId">
+            <summary>
+            游戏类型
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.Type">
+            <summary>
+            注单类型
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.AgentId">
+            <summary>
+            会员所属站长唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.Turnover">
+            <summary>
+            有效投注金额 
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetBetRecordByTimeDataItem.RoundIndex">
+            <summary>
+            主单号，用于注单类型为 9 的注单 
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowInput.UpdateTime">
+            <summary>
+            查询开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.Account">
+            <summary>  
+            会员唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.ReferenceID">
+            <summary>  
+            免费局数序号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.SendTime">
+            <summary>  
+            免费局数赠送时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.ExpiredTime">
+            <summary>  
+            免费局数过期时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.UpdateTime">
+            <summary>  
+            免费局数更新时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.SendGame">
+            <summary>  
+            免费局数赠送游戏  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.SendAmount">
+            <summary>  
+            免费局数赠送数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.UsedAmount">
+            <summary>  
+            免费局数使用数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.UnusedAmount">
+            <summary>  
+            免费局数未使用数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinDashflowData.ClaimGame">
+            <summary>  
+            免费局数绑定游戏  
+            注意：这里假设ClaimGame是一个整数值，用于唯一标识游戏，但具体含义可能需要根据实际情况调整  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDInput.ReferenceId">
+            <summary>
+            免费游戏序号
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.Account">
+            <summary>  
+            会员唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.GameId">
+            <summary>  
+            游戏的唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.WagersId">
+            <summary>  
+            在游戏内注单唯一值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.BetAmount">
+            <summary>  
+            投注金额，精度为16位，小数部分为4位  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.PayoffAmount">
+            <summary>  
+            派彩金额，精度为16位，小数部分为4位  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.WagersTime">
+            <summary>  
+            投注时间，通常使用Unix时间戳表示（如果bigint是时间戳的话），否则可能是某种内部编号  
+            注意：如果WagersTime确实是时间戳，您可能需要将其转换为DateTime类型以便更方便地处理时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByReferenceIDData.ReferenceId">
+            <summary>  
+            免费游戏序号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput.StartTime">
+            <summary>  
+            查询开始时间  
+            格式: YYYY-MM-DDThh:mm:ss, 使用GMT-4时区的时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput.EndTime">
+            <summary>  
+            查询结束时间  
+            格式同StartTime  
+            注意事项: 由于游戏纪录会有写入延迟, 建议使用5到10分钟前的时间作为EndTime  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput.Page">
+            <summary>  
+            页数(从1开始)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput.PageLimit">
+            <summary>  
+            每页资料笔数, 最多20,000, 最少10000  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput.GameId">
+            <summary>  
+            游戏的唯一识别值  
+            注意事项: 在计算key时请忽略此字段  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeInput.FilterAgent">
+            <summary>  
+            过滤条件: 只捞取该站长(AgentId)代理的注单  
+            1: 只捞取该站长(AgentId)代理的注单  
+            0 或不带值: 捞取所有站长代理的注单  
+            注意事项: 在计算key时请忽略此字段  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.Account">
+            <summary>  
+            会员唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.GameId">
+            <summary>  
+            游戏的唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.WagersId">
+            <summary>  
+            在游戏内注单唯一值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.BetAmount">
+            <summary>  
+            投注金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.PayoffAmount">
+            <summary>  
+            派彩金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.WagersTime">
+            <summary>  
+            投注时间（通常是Unix时间戳）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordByTimeDataItem.Currency">
+            <summary>  
+            注单币别  
+            转账钱包时，这项为空字符串  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryInput.StartTime">
+            <summary>  
+            查询开始时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryInput.EndTime">
+            <summary>  
+            查询结束时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryInput.Currency">
+            <summary>  
+            查询货币代码  
+            未指定时，回传结果将包含所有币别的个别加总  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryInput.FilterAgent">
+            <summary>  
+            是否只查询所指定代理（AgentId）下的注单统计  
+            未指定时，回传结果为所有代理的加总  
+            注意：在计算key时，此属性应被忽略（但通常这是逻辑层处理的问题，而不是实体类的职责）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataItem.BetAmount">
+            <summary>  
+            投注总金额 (根据描述，此项必为0)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataItem.PayoffAmount">
+            <summary>  
+            派彩总金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataItem.WagersCount">
+            <summary>  
+            注单数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataItem.Currency">
+            <summary>  
+            注单币别 (转账钱包这项为空字符串)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataItem.WinlossAmount">
+            <summary>  
+            派彩投注差值总金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataOverview.TotalSend">
+            <summary>  
+            赠送总局数  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataOverview.TotalUsed">
+            <summary>  
+            已使用总局数  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinRecordSummaryDataOverview.TotalUnused">
+            <summary>  
+            未使用总局数  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailInput.StartTime">
+            <summary>  
+            查询开始时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailInput.EndTime">
+            <summary>  
+            查询结束时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailInput.FilterAgent">
+            <summary>  
+            是否只查询所带之代理 (AgentId) 下的注单统计  
+            如果为 false，则返回结果为所有代理的加总  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.Account">
+            <summary>  
+            会员唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.ReferenceId">
+            <summary>  
+            免费局数序号  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.SendAmount">
+            <summary>  
+            免费局数赠送数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.SendTime">
+            <summary>  
+            免费局数赠送时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.ExpiredTime">
+            <summary>  
+            免费局数过期时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.SendGame">
+            <summary>  
+            免费局数赠送游戏  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.UsedAmount">
+            <summary>  
+            免费局数使用数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.UnusedAmount">
+            <summary>  
+            免费局数未使用数量  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetFreeSpinSendDetailData.ClaimGame">
+            <summary>  
+            免费局数绑定游戏 (0: 未绑定游戏)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameDetailUrlInput.WagersId">
+            <summary>
+            在游戏内注单唯一值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameDetailUrlInput.Lang">
+             <summary>
+             指定语系
+            P.S.计算 key 时请忽视
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameDetailUrlData.Url">
+            <summary>
+            游戏详细结果 Url
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameListData.GameId">
+            <summary>  
+            游戏的唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameListData.Name">
+            <summary>  
+            游戏名称，支持多种语言  
+            字典的键为语言代码（如"zh-CN"、"zh-TW"、"en-US"），值为对应的游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameListData.GameCategoryId">
+            <summary>  
+            游戏类型, 请参考附录 – 游戏类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameListData.JP">
+            <summary>  
+            true: 此款游戏内建 JP  
+            false: 无内建 JP  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetGameListData.Freespin">
+            <summary>  
+            true: 此款游戏支持免费游戏 (§3.2);  
+            false: 不支持免费游戏  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMemberInfoInput.Accounts">
+            <summary>
+            会员唯一识别值
+            查询多个使用者：用逗号分开
+            查询单一使用者
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMemberInfoData.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMemberInfoData.Balance">
+            <summary>
+            会员钱包余额 (账号不存在时为 0)*
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMemberInfoData.Status">
+             <summary>
+             状态：
+            1: 在线
+            2: 脱机
+            3: 账号不存在
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByInput.GameId">
+             <summary>
+             游戏唯一识别值。不带值则会回传全部游戏的满额必开
+                信息。
+            P.S.计算 key 时请忽略 GameId
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByData.Currency">
+            <summary>  
+            币别名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByData.Game">
+            <summary>  
+            游戏名称  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByData.GameId">
+            <summary>  
+            游戏ID识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByData.MustHitByPool">
+            <summary>  
+            满额必开水箱（可能是指某种游戏机制下，当达到某个金额或条件时，必须触发的奖励或事件）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetMustHitByData.MustHitByValue">
+            <summary>  
+            满额必开数值（与MustHitByPool配合使用，指定了必须达到的具体数值或条件）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeInput.StartTime">
+            <summary>
+            查询开始时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeInput.EndTime">
+            <summary>
+            查询结束时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeInput.Page">
+            <summary>
+            页数(从 1 开始)
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeInput.PageLimit">
+            <summary>
+            每页资料笔数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeInput.Account">
+             <summary>
+             会员唯一识别值
+            • 不传参数 : 取回所有会员
+            • 查询单一使用者
+            P.S.计算 key 时请忽略 Account
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeDataItem.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeDataItem.TransactionId">
+            <summary>
+            交易序号，额度转移纪录唯一值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeDataItem.TransferTime">
+            <summary>
+            交易时间
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeDataItem.Amount">
+            <summary>
+            交易金额
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeDataItem.TransferType">
+             <summary>
+             转账类型
+            1: 从 游戏商 转移额度到 平台商
+            2: 从 平台商 转移额度到 游戏商
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetTransferRecordByTimeDataItem.Status">
+             <summary>
+             状态：
+            1: 成功
+            2: 失败
+             </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.StartTime">
+            <summary>  
+            查询开始时间，格式为YYYY-MM-DDThh:mm:ss，使用GMT-4时区  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.EndTime">
+            <summary>  
+            查询结束时间，格式同StartTime。建议使用5到10分钟前的时间以避免写入延迟  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.Page">
+            <summary>  
+            页数，从1开始  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.PageLimit">
+            <summary>  
+            每页资料笔数，最多20,000，最少10,000  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.Account">
+            <summary>  
+            欲查询之玩家名称（在计算key时请忽视，但可能用于其他目的）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.GameId">
+            <summary>  
+            游戏的唯一识别值（在计算key时请忽视，但可能用于过滤特定游戏）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeInput.GameType">
+            <summary>  
+            游戏类型（在计算key时请忽视，但可能用于查询特定游戏类型内的所有游戏纪录）  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.Account">
+            <summary>  
+            会员唯一识别值  
+            </summary>    
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.WagersId">
+            <summary>  
+            在游戏内注单唯一值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.GameId">
+            <summary>  
+            游戏的唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.Status">
+            <summary>  
+            注单状态：1: 赢 2: 输 3: 平局  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.Type">
+            <summary>  
+            注单类型，详情分类请参考附录 – 注单类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.BetAmount">
+            <summary>  
+            投注金额  
+            </summary> 
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.PayoffAmount">
+            <summary>  
+            派彩金额  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.PayoffTime">
+            <summary>  
+            派彩时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.Balance">
+            <summary>  
+            会员钱包余额 (账号不存在时为 0)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.Turnover">
+            <summary>  
+            有效投注金额 (请参考关于 Turnover)  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.WagersTime">
+            <summary>  
+            投注时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.SettlementTime">
+            <summary>  
+            对帐时间  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.GameCategoryId">
+            <summary>  
+            游戏类型，详情分类请参考附录 – 游戏类型  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.GetUserBetRecordByTimeDataItem.AgentId">
+            <summary>  
+            会员所属站长唯一识别值  
+            </summary>  
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.KickMemberAllInput.GameId">
+            <summary>
+            游戏的唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.KickMemberInput.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.LoginWithoutRedirectInput.Account">
+            <summary>
+            会员唯一识别值
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.LoginWithoutRedirectInput.GameId">
+            <summary>
+            游戏唯一识别值(同等 GameList 各游戏的 GameId)
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.LoginWithoutRedirectInput.Lang">
+            <summary>
+            UI 语系, 请参考 附录 – 语系参数
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.LoginWithoutRedirectInput.HomeUrl">
+            <summary>
+            不列入 md5 加密，游戏回主页功能导向位置
+            </summary>
+        </member>
+        <member name="P:Ooph.MergePart3Game.GameJiLi.Models.LoginWithoutRedirectInput.Platform">
+            <summary>
+            不列入 md5 加密，带入 web 或是 app
+            </summary>
+        </member>
+        <member name="F:Ooph.MergePart3Game.GameJiLi.SignRequestBody._InitData">
+             <summary>
+            Url签名参数字典
+             </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.SignRequestBody.CalcDate">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.SignRequestBody.MD5(System.String,System.String)">
+            <summary>
+            Md5加密
+            </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.SignRequestBody.Sign(System.String,System.Collections.Specialized.NameValueCollection,System.String,System.String)">
+            <summary>
+            生成Sign签名字符串
+            </summary>
+            <param name="path"></param>
+            <param name="dic"></param>
+            <param name="agentId"></param>
+            <param name="agentKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.SignRequestBody.getRandom">
+            <summary>
+            生成随机数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ooph.MergePart3Game.GameJiLi.CustomExtend">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Ooph.MergePart3Game.GameJiLi.CustomExtend.ObjToUriParam(System.Object)">
+            <summary>
+            Obj对象转HttpUrl参数字符串
+            </summary>
+            <param name="obj"></param>
+            <returns>返回Url参数字符串</returns>
+        </member>
+    </members>
+</doc>

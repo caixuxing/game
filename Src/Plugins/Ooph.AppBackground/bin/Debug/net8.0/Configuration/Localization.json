@@ -1,0 +1,12 @@
+{
+  "$schema": "https://gitee.com/dotnetchina/Furion/raw/v4/schemas/v4/furion-schema.json",
+  "OOLocalization": {
+    "SupportedCultures": [ "zh", "en", "en-US", "id-ID" ],
+    "SupportedUICultures": [ "zh", "en", "en-US", "id-ID" ],
+    "DefaultCulture": "zh",
+    "DefaultRequestCulture": "zh",
+    "ApplyCurrentCultureToResponseHeaders": true,
+    "FallBackToParentCultures": true,
+    "FallBackToParentUICultures": true
+  }
+}
